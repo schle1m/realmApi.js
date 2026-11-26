@@ -1,0 +1,23 @@
+{
+    "name": "realmApi.js",
+    "description": "a simple realmapi wrapper using prismarine auth to interact with Minecraft Bedrock realms Api and fetch / post Data from / to it",
+    "author": "schle1m",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "require": "./dist/index.js",
+            "default": "./dist/index.js"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "exports": "node scripts/createExports",
+        "prepare": "npm run build"
+    },
+    "dependencies": {
+        "prismarine-auth": "^3.1.1"
+    }
+}
