@@ -2,6 +2,7 @@ export * from "./acceptInvite";
 export * from "./ban";
 export * from "./close";
 export * from "./deopPlayer";
+export * from "./getInfo";
 export * from "./getInviteCount";
 export * from "./getInvites";
 export * from "./getRealmInvite";

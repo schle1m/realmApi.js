@@ -1,5 +1,5 @@
-import type { Realm } from "./Realm"
+import type { RealmFull } from "./Realm"
 export interface RealmsResponse {
   status: number;
-  servers?: Realm[]
+  servers?: RealmFull[]
 }

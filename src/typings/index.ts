@@ -3,6 +3,7 @@ export * from "./accepndrejecttInvite";
 export * from "./api";
 export * from "./banandunban";
 export * from "./getInvite";
+export * from "./getRealmInvite";
 export * from "./getRealms";
 export * from "./inviteCount";
 export * from "./invitePlayer";
