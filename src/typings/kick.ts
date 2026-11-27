@@ -1,6 +1,6 @@
-import type { Realm } from "./Realm";
+import type { RealmFull } from "./Realm";
 
 export interface kickResponse {
     status: number
-    json?: Realm
+    json?: RealmFull
 }
