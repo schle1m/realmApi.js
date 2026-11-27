@@ -5,6 +5,7 @@ export * from "./deopPlayer";
 export * from "./editDefaultPermissions";
 export * from "./editPermissions";
 export * from "./getInfo";
+export * from "./getInfoByCode";
 export * from "./getInviteCount";
 export * from "./getInvites";
 export * from "./getRealmInvite";
