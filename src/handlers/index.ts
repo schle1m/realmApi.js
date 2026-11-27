@@ -1,4 +1,5 @@
 export * from "./acceptInvite";
+export * from "./ban";
 export * from "./deopPlayer";
 export * from "./getInviteCount";
 export * from "./getInvites";
@@ -9,3 +10,4 @@ export * from "./kick";
 export * from "./leaveRealm";
 export * from "./opPlayer";
 export * from "./rejectInvite";
+export * from "./unban";
