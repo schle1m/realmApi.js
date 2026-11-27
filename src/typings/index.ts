@@ -2,6 +2,7 @@ export * from "./Realm";
 export * from "./accepndrejecttInvite";
 export * from "./api";
 export * from "./banandunban";
+export * from "./edit";
 export * from "./editPermissions";
 export * from "./getInfo";
 export * from "./getInvite";

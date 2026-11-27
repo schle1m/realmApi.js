@@ -2,6 +2,7 @@ export * from "./acceptInvite";
 export * from "./ban";
 export * from "./close";
 export * from "./deopPlayer";
+export * from "./edit";
 export * from "./editDefaultPermissions";
 export * from "./editPermissions";
 export * from "./getInfo";
