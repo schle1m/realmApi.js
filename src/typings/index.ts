@@ -5,6 +5,7 @@ export * from "./banandunban";
 export * from "./editPermissions";
 export * from "./getInfo";
 export * from "./getInvite";
+export * from "./getIp";
 export * from "./getRealmInvite";
 export * from "./getRealms";
 export * from "./inviteCount";

@@ -20,6 +20,7 @@ export interface ApiOptions {
 }
 export interface Client {
   request<T>(path: string, options?: RequestOpts): Promise<RequestResponse<T>>
+  requestFrontendLegacy<T>(path: string, options?: RequestOpts): Promise<RequestResponse<T>>
 }
 export type Handler = (client: Client, ...args: any[]) => Promise<unknown>
 
