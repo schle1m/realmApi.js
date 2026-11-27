@@ -10,5 +10,5 @@ export * from "./joinRealm";
 export * from "./kick";
 export * from "./leaveRealm";
 export * from "./opanddeop";
+export * from "./openandclose";
 export * from "./request";
-export * from "./openandclose"

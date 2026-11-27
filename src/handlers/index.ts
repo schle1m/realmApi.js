@@ -4,6 +4,7 @@ export * from "./close";
 export * from "./deopPlayer";
 export * from "./getInviteCount";
 export * from "./getInvites";
+export * from "./getRealmInvite";
 export * from "./getRealms";
 export * from "./invitePlayer";
 export * from "./joinrealm";
