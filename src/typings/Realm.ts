@@ -29,9 +29,9 @@ export interface LimitedRealm {
   worldType: RealmWorldType;
   players: RealmPlayer[] | null
   maxPlayers: number
-  minigameName: string | null
-  minigameId: number | null
-  minigameImage: string | null;
+  minigameName?: string | null
+  minigameId?: number | null
+  minigameImage?: string | null;
   activeSlot: number
   member: boolean
   clubId: number | null
